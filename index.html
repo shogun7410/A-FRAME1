@@ -11,14 +11,15 @@
 <body>
     <a-scene arjs>
         <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-        <a-actifs>
+        <a-asset>
             <a-asset-item id="tree-obj" src="/SubTool-0-5472442.OBJ"></a-asset-item>
-            <a-asset-item id="tree-mtl" src="/SubTool-0-5472442.OBJ"></a-asset-item>
-          </a-actifs>
+          </a-asset>
         <a-marker-camera preset='hiro'></a-marker-camera>
+
+        <a-entity obj-model="obj: #tree-obj; mtl: "></a-entity>
 
     </a-scene>
     
-    
+
 </body>
 </html>
